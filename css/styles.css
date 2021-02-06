@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700;900&family=Poppins:wght@100;300;400;500;700&display=swap');
+
 body{
-    font-family: "montserrat";
+    font-family: 'Montserrat';
 }
 
 
@@ -19,7 +21,7 @@ body{
 }
 
 .navbar-brand{
-    font-family: "poppins";
+    font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
 }
 .navbar-item{
@@ -38,7 +40,7 @@ body{
 }
 
 #titleHeading{
-    font-family: "poppins-bold";
+    font-family: 'Poppins-bold', sans-serif;
     color: #ffff;
     font-size: 3.5rem;
     line-height: 1.2;
@@ -75,8 +77,7 @@ body{
     transition: 0.5s;
 }
 .feature-box h3{
-    font-family: "poppins-bold";
-}
+    font-family: 'Poppins-bold', sans-serif;}
 
 .feature-box p{
     color: #8f8f8f;
@@ -91,8 +92,7 @@ body{
 }
 
 .testimonial-text h2{
-    font-family: "poppins-bold";
-    font-size: 3rem;
+    font-family: 'Poppins-bold', sans-serif;    font-size: 3rem;
     line-height: 1.5;
 }
 .testimonial-image img{
@@ -136,7 +136,7 @@ body{
 }
 
 #cta h3{
-    font-family: "poppins-bold";
+    font-family: 'Poppins-bold', sans-serif;
     font-size: 50px;
     color: #ffff;
 }
@@ -150,7 +150,7 @@ body{
 
 #footer p{
     color: darkgray;
-    font-family: "poppins-light";
+    font-family: 'Poppins-light', sans-serif;
     font-size: 20px;
 }
 
