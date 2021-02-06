@@ -1,0 +1,172 @@
+body{
+    font-family: "montserrat";
+}
+
+
+/* Navigation Bar */
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+#nav-title-container{
+    padding: 3% 10%;
+    
+}
+
+
+.navbar{
+    padding: 0 0 2.5rem;
+}
+
+.navbar-brand{
+    font-family: "poppins";
+    font-size: 2.5rem;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+
+/* Download Button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title{
+    background-color: #ff4c68;
+}
+
+#titleHeading{
+    font-family: "poppins-bold";
+    color: #ffff;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    opacity: 0.9;
+}
+
+.title-image{ 
+    /* width: 60%  In order to overlap the features section over image, we used width:60% but image become too large*/
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: #ffff;
+    position: relative;
+    
+}
+
+.feature-box{
+    justify-items: center;
+    text-align: center;
+    padding: 3%;
+}
+.feature-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+    transition: 0.5s;
+}
+.feature-box h3{
+    font-family: "poppins-bold";
+}
+
+.feature-box p{
+    color: #8f8f8f;
+}
+
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+
+}
+
+.testimonial-text h2{
+    font-family: "poppins-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image img{
+    width: 20%;
+    border: 5px solid rgb(255, 255, 255,0.7);
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press Section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px;
+}
+
+/* Pricing Section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* CTA section */
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+#cta h3{
+    font-family: "poppins-bold";
+    font-size: 50px;
+    color: #ffff;
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ffff;
+}
+
+#footer p{
+    color: darkgray;
+    font-family: "poppins-light";
+    font-size: 20px;
+}
+
+.footer-icons{
+    color: darkslategrey;
+    padding: 0 2%;
+}
+
+/* Media query for achieving responsiveness in Tablet or Mobile Phones */
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        width:40%;
+        position: static;
+        transform: rotate(0);
+    }
+}
